@@ -7,19 +7,20 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="../about-me/about-me.component.html">ABOUT ME <span class="sr-only">(current)</span></a>
+          <a class="nav-link" id="one"[routerLink]="['/about-me']">ABOUT ME <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../skills/skills.component.html">SKILLS</a>
+          <a class="nav-link"  id="two" [routerLink]="['/skills']">SKILLS</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown" href="../work/work.component.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown"  id="three" [routerLink]="['/work']" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             WORK
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link " href="../connect/connect.component.html" tabindex="-1" aria="true">CONNECT</a>
+          <a class="nav-link "  id="four" [routerLink]="['/connect']" tabindex="-1" aria="true">CONNECT</a>
         </li>
       </ul>
     </div>
   </nav>
+
