@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule} from '@angular/router';
+import { FormsModule } from '@angular/forms';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
@@ -10,6 +12,7 @@ import { WorkComponent } from './work/work.component';
 import { ConnectComponent } from './connect/connect.component';
 import { ErrorPageComponent } from './errorPage.component';
 import { SitefooterComponent } from './sitefooter/sitefooter.component';
+import { CarouselPauseComponent } from './carousel-pause/carousel-pause.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,8 @@ import { SitefooterComponent } from './sitefooter/sitefooter.component';
     WorkComponent,
     ConnectComponent,
     ErrorPageComponent,
-    SitefooterComponent
+    SitefooterComponent,
+    CarouselPauseComponent
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,9 @@ import { SitefooterComponent } from './sitefooter/sitefooter.component';
       { path: 'connect', component: ConnectComponent },
       { path: '', pathMatch: 'full', redirectTo: 'navbar' },
       { path: '**', component: ErrorPageComponent }
-    ])
+    ]),
+    NgbModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
