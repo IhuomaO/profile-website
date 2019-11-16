@@ -25,11 +25,12 @@ import { SitefooterComponent } from './sitefooter/sitefooter.component';
   imports: [
     BrowserModule,
     RouterModule.forRoot([
+      { path: 'navbar', component: NavbarComponent },
       { path: 'about-me', component: AboutMeComponent },
       { path: 'skills', component: SkillsComponent },
       { path: 'work', component: WorkComponent },
       { path: 'connect', component: ConnectComponent },
-      { path: '', pathMatch: 'full', redirectTo: 'about-me' },
+      { path: '', pathMatch: 'full', redirectTo: 'navbar' },
       { path: '**', component: ErrorPageComponent }
     ])
   ],

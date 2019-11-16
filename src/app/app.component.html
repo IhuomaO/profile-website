@@ -1,12 +1,7 @@
 <div class="container-fluid">
 
-  <app-navbar></app-navbar>
-  <div class="supportedContent">
-    <a class="nav-link"  [routerLink]="['/about-me']">About Me</a>
-    <a class="nav-link"  [routerLink]="['/skills']">Skills</a>
-    <a class="nav-link" [routerLink]="['/work']">Work</a>
-    <a class="nav-link" [routerLink]="['/connect']">Connect</a>
-  </div>
+
+  <router-outlet></router-outlet>
   <app-sitefooter></app-sitefooter>
 </div>
 
