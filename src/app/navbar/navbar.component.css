@@ -1,17 +1,22 @@
 .intro {
   text-align: center;
   background-color: brown;
-  padding: 4em;
+  padding: 5em;
 }
 
 .socials {
   box-align: center;
+  padding: 3em;
+}
+
+.supportedContent {
+  box-align: center;
   padding: 2em;
 }
+
 .svg {
-  width: 20px;
-  color: white
-  ;
+  width: 30px;
+  color: white;
   margin-right: 2em;
 }
 

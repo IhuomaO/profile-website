@@ -1,10 +1,10 @@
-h1 {
-  margin:5px;
+.title {
+  padding:3em;
   text-align: center;
 }
 
-span {
-  padding: 10em;
+.words {
+  padding: 5em;
   text-align: right;
 }
 
