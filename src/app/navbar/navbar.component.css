@@ -1,6 +1,6 @@
 .intro {
   text-align: center;
-  background-color: brown;
+  background-color: whitesmoke;
   padding: 5em;
 }
 
@@ -22,4 +22,14 @@
 
 h4 {
   padding: 2em;
+}
+
+.footer {
+  padding: 5em;
+}
+
+.foot {
+  width: 10px;
+  margin-left: 0.25em;
+
 }
