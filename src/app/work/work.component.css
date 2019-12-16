@@ -1,0 +1,40 @@
+table {
+  border: 1px solid black;
+  border-spacing: 10px;
+   width: 100%;
+
+}
+
+td {
+  text-align: justify;
+   padding: 15px;
+   border: 1px solid black;
+   text-align: center;
+}
+
+th {
+  border: 1px solid black;
+}
+
+.stats {
+  border: 1px solid black;
+  width: 100%;
+}
+
+.inside {
+  border: 1px solid black;
+  float: left;
+  width: 35%;
+  background-color: whitesmoke;
+}
+.side {
+  border: 1px solid black;
+  float: left;
+  width: 30%;
+  background-color: whitesmoke;
+}
+
+.ending {
+  float: left;
+  width: 100%;
+}
