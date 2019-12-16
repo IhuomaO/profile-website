@@ -38,3 +38,18 @@ th {
   float: left;
   width: 100%;
 }
+
+.ghub {
+   width: 30px;
+   color: greenyellow;
+   padding: 5px;
+}
+
+.overview {
+   width: 600px;
+   padding: 5px;
+}
+
+.effort, h2 {
+  padding: 2rem;
+}
