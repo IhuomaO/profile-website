@@ -2,7 +2,7 @@
   <ng-template ngbSlide *ngFor="let img of images; index as i">
     <a href="https://www.google.fr/?q=Number+{{i+1}}" target="_blank" rel="nofollow noopener noreferrer">
       <div class="picsum-img-wrapper">
-        <img [src]="img" alt="My image {{i + 1}} description">
+        <img [src]="img" class='img-fluid' alt="My image {{i + 1}} description">
       </div>
     </a>
   </ng-template>
@@ -14,6 +14,6 @@
   <input type="checkbox" class="form-check-input" id="pauseOnHover" [(ngModel)]="pauseOnHover">
   <label class="form-check-label" for="pauseOnHover">Pause on hover</label>
 </div>
-<button type="button" (click)="togglePaused()" class="btn btn-outline-dark btn-sm">
+<button type="button" (click)="togglePaused()" class="btn btn-outline-dark btn-sm" hidden>
   {{paused ? 'Cycle' : 'Pause' }}
 </button>
